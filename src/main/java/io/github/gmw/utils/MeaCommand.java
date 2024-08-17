@@ -8,8 +8,7 @@ import io.github.gmw.MeaNoticeCore;
 
 import java.util.*;
 
-@Command(label = "meanotice", usage = "meanotice reload",
-        description = "MeaNoticeCore command", aliases = {"mnotice"}, permission = "meo.notice")
+@Command(label = "meanotice", usage = {"meanotice reload", "MeaNoticeCore command"},aliases = {"mnotice"}, permission = "meo.notice")
 
 public class MeaCommand implements CommandHandler {
     @Override
